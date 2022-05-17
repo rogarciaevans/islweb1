@@ -1,0 +1,44 @@
+
+* {
+    box-sizing: border-box;
+
+}
+
+
+.headermain{
+    float:left;
+
+}
+
+
+
+.flexcontainer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.flexcontainer div {
+    margin: 5px;
+    padding: 10px;
+}
+
+
+.hlistlink{
+
+    background-color: white;
+    color: rgb(56,54,53);
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 14px 16px;
+    font-family: arial, helvetica, sans-serif;
+
+}
+
+.hlistlink:hover{
+    border-bottom: 3px solid rgb(1,129,200)
+
+
+}
