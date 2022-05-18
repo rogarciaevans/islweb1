@@ -1,40 +1,67 @@
 
 * {
     box-sizing: border-box;
-
+    margin: 0px auto;
+    padding: 0px;
 }
 
-
-.headermain{
-    float:left;
-
-}
-
-
-
-.flexcontainer{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
+header{
     align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    height: fit-content;
+    justify-content: space-between;
+    padding: 14px 16px;
+    width: 100%;
+}
+
+header .brand{
+    flex-grow: 0;
+    width: fit-content;
+}
+
+header .brand a{
+    background-image: url("logoislgrande.jpg");
+    background-position: left center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    height: 120px;
+    width: 200px;
+}
+
+header .navigation {
+    align-items: center;
+    display: flex;
+    flex-grow: 0;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+header .navigation ul{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
 
 }
-.flexcontainer div {
-    margin: 5px;
-    padding: 10px;
-}
-
-
-.hlistlink{
-
+header .navigation li{
+    display: block;
     background-color: white;
     color: rgb(56,54,53);
-    text-align: center;
-    text-decoration: none;
     font-size: 20px;
     padding: 14px 16px;
     font-family: arial, helvetica, sans-serif;
 
+}
+
+header .navigation a{
+  text-align: center;
+  text-decoration: none;
+  color: rgb(56,54,53);
 }
 
 .hlistlink:hover{
