@@ -26,7 +26,7 @@ header .brand a{
     background-size: contain;
     background-repeat: no-repeat;
     display: block;
-    height: 120px;
+    height: 80px;
     width: 200px;
 }
 
@@ -65,7 +65,66 @@ header .navigation a{
 }
 
 .hlistlink:hover{
-    border-bottom: 3px solid rgb(1,129,200)
+    border-bottom: 3px solid rgb(1,129,200);
+    text-shadow: 1px 1px 5px rgb(200,200,200);
+}
+
+.vidcont{
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+  }
+
+.vidcont video{
+    margin-top: -200px;
+    z-index: 1;
+    position: absolute;
+}
+
+.vidcont h1{
+    z-index: 2;
+    width:100%;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    color: rgb(50,50,50);
+    font-family: "Fira Sans", sans-serif;
+    font-size: 60px;
+    letter-spacing: 3px;
+
+}
+
+.vidcont h3 {
+  z-index: 2;
+  width:100%;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  color: rgb(50,50,50);
+  font-family: "Fira Sans", sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+
+}
+
+.butcont {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 150px;
+  z-index: 3;
+
+}
+
+.butcont button{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+  padding: 14px 16px;
 
 
 }
