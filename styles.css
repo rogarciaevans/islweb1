@@ -163,3 +163,68 @@ header .navigation a{
   text-shadow: 1px 1px 5px rgb(0,0,0);
   transform: translateY(-5px);
 }
+
+h2 {
+  font-size: 60px;
+  font-family: "Fira Sans", sans-serif;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+
+}
+
+.aboutuscont p {
+  font-size: 20px;
+  font-family: "Fira Sans", sans-serif;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-indent: 10%;
+  margin-bottom: 50px;
+
+}
+
+.fixedincind {
+  background-image: url("divindinc.jpeg");
+  min-height: 600px;
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flexservicecont {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 400px;
+  padding: 0px;
+  margin: 0px;
+  gap: 0px;
+}
+
+.srvcont {
+  display: flex;
+  flex-wrap: wrap;
+  /*max-height: 100%;*/
+
+  max-width: 25%;
+  padding: 0px;
+  margin: 0px;
+  gap: 0px;
+
+}
+
+.srvcont a {
+  display: block;
+  object-fit: fill;
+
+}
+
+.srvcont img {
+  object-fit: cover;
+  display: block;
+  width: 100%;
+  height:100%;
+}
