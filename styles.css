@@ -218,8 +218,9 @@ h2 {
 }
 
 .srvcont a {
-  display: block;
+  display: flex;
   object-fit: fill;
+  justify-content: center;
 }
 
 .srvcont img {
@@ -232,25 +233,29 @@ h2 {
 .srvcont div{
   display: none;
   position: absolute;
-  text-align: center;
-  width: 100%;
+  width: 50%;
   height: 100%;
-  top: 0;
+  top: 100px;
+  margin: 0px 25%;
+  justify-content: center;
 
 }
 .srvcont p {
   text-transform: uppercase;
+  text-align: center;
   color: white;
   font-size:50px;
   font-weight: 600;
   text-shadow: 2px 2px 5px rgb(50,50,50);
   font-family: "Fira Sans", helvetica, sans-serif;
   text-indent: 0px;
+  margin-top: 0px;
+  margin-left: 0px
 
 }
 
 .srvcont:hover div{
-  display: table;
+  display: flex;
 
 }
 
