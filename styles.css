@@ -13,6 +13,11 @@ header{
     justify-content: space-between;
     padding: 14px 16px;
     width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    z-index: 4;
+    background-color: white;
 }
 
 header .brand{
@@ -73,6 +78,7 @@ header .navigation a{
     height: 600px;
     overflow: hidden;
     position: relative;
+    margin-top: 100px;
   }
 
 .vidcont video{
