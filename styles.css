@@ -215,7 +215,8 @@ h2 {
   flex-wrap: wrap;
   /*max-height: 100%;*/
 
-  max-width: 25%;
+  /*max-width: 25%;*/
+  flex:25%;
   padding: 0px;
   margin: 0px;
   gap: 0px;
@@ -277,4 +278,16 @@ h2 {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media screen and (max-width: 992px){
+  .srvcont{
+    flex: 50%;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .srvcont{
+    flex-direction: column;
+  }
 }
